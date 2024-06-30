@@ -1,5 +1,5 @@
 
-<?php 
+<?php
 
 
 /*
@@ -8,7 +8,8 @@ Setting a condition to make the function call itself back
 As long as the value of the number parameter is greater than zero, the function calls itself again and subtracts 1 from the value of the number parameter.
  */
 
- function factorial($number) {
+function factorial($number)
+{
     if ($number > 0) {
         return $number * factorial($number - 1);
     }
